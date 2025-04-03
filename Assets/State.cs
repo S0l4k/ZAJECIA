@@ -1,6 +1,9 @@
+using System;
+
 namespace StateMachine
 {
-    public abstract class State
+    [Serializable]
+    public  class State
     {
 
         protected StateMachine stateMachine;

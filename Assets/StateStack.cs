@@ -4,9 +4,10 @@ using UnityEngine;
 
 namespace StateMachine
 {
+    
     public class Statestack
     {
-        private List<State> _stack = new();
+        [SerializeField] private List<State> _stack = new();
         
         public void Push(State state)
         {
